@@ -9,7 +9,7 @@ moneyType = 'bank'
 bennyGarages = {
     [1] = {coords = vector4(-211.55, -1324.55, 30.90, 319.73135375977), useJob = false, job = {"mechanic", "police"}},
     [2] = {coords = vector4(109.89, 6627.07, 31.78, 221.7938), useJob = true, job = {"mechanic"}},
-	[3] = {coords = vector4(144.94, -3030.34, 7.04, 177.19), useJob = true, job = {"mechanic"}}
+	[3] = {coords = vector4(144.94, -3030.34, 7.04, 177.19), useJob = false, job = {"mechanic"}}
 }
 
 --[[ bennyLocations = {
