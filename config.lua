@@ -9,7 +9,7 @@ moneyType = 'bank'
 bennyGarages = {
     [1] = {coords = vector4(-211.55, -1324.55, 30.90, 319.73135375977), useJob = false, job = {"mechanic", "police"}},
     [2] = {coords = vector4(109.89, 6627.07, 31.78, 221.7938), useJob = true, job = {"mechanic"}},
-	--[3] = {coords = vector4(435.6, -975.9, 25.7, 88.61), useJob = true, job = {"mechanic", "police"}}
+	[3] = {coords = vector4(144.94, -3030.34, 7.04, 177.19), useJob = true, job = {"mechanic"}}
 }
 
 --[[ bennyLocations = {
@@ -20,18 +20,18 @@ bennyGarages = {
 
 vehicleCustomisationPrices = {
     cosmetics = {price = 400},
-    respray = {price = 1000},
+    respray = {price = 1800},
     performance = {prices = {0, 3250, 5500, 10450, 15250, 20500}},
     turbo = {price = 15000},
-    wheels = {price = 400},
-    customwheels = {price = 600},
-    wheelsmoke = {price = 400},
+    wheels = {price = 1050},
+    customwheels = {price = 2500},
+    wheelsmoke = {price = 40000},
     windowtint = {price = 400},
-    neonside = {price = 100},
+    neonside = {price = 500},
     neoncolours = {price = 500},
-    headlights = {price = 100},
-    xenoncolours = {price = 500},
-    oldlivery = {price = 500},
+    headlights = {price = 1000},
+    xenoncolours = {price = 2000},
+    oldlivery = {price = 2500},
     plateindex = {price = 1000}
 }
 
@@ -78,8 +78,8 @@ vehicleXenonOptions = {
 -- WHEELS
 
 vehicleWheelOptions = {
-    {category = "Custom Tyres", id = -1, wheelID = 23},
-    {category = "Tyre Smoke", id = 20, wheelID = 23},
+    {category = "Custom Tires", id = -1, wheelID = 23},
+    {category = "Tire Smoke", id = 20, wheelID = 23},
     {category = "Sport", id = 0, wheelID = 23},
     {category = "Muscle", id = 1, wheelID = 23},
     {category = "Lowrider", id = 2, wheelID = 23},
